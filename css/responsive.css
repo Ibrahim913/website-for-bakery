@@ -1,0 +1,106 @@
+@media (max-width: 992px) {
+    nav {
+        background: #eee;
+        box-shadow: 8px 0 5px #000;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    .header h1 {
+        font-size: 34px !important;
+    }
+    .checkbtn {
+        display: block;
+    }
+    nav .logo img {
+        padding: 10px 0 0 0;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #8e7754;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+        color: #000;
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+        background: none;
+        color: #8e7754;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    #check:checked .fa-window-close {
+        display: block;
+    }
+    /* =============== */
+    .header p:nth-of-type(1) {
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+    .header h1 {
+        font-size: 45px;
+        margin-bottom: 15px;
+        line-height: 1em;
+    }
+    .header p:nth-of-type(2) {
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 0 15px;
+    }
+    .header .buttons {
+        margin-top: 30px;
+    }
+    .header .link {
+        padding: 10px 25px;
+        border: 2px solid transparent;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+    .header .btn-contact {
+        margin-right: 10px;
+        border: 2px solid #fff;
+    }
+    .location .info-location h2 {
+        font-size: 26px;
+    }
+    .location .info-location {
+        margin-bottom: 50px;
+    }
+    .location .img-location img {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:767px) {
+    .header p:nth-of-type(1) {
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+    .header h1 {
+        font-size: 45px;
+        margin-bottom: 15px;
+        line-height: 1em;
+    }
+    .header p:nth-of-type(2) {
+        font-size: 16px;
+    }
+    .about .info-about {
+        margin-top: 40px;
+    }
+    .baking .bake {
+        margin-bottom: 50px;
+    }
+}
